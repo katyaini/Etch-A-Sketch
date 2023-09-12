@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: funFont;
+    src: url(Purplemagic.otf);
+}
+body{
+    background-color:#ffcda2;
+   
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin:0 auto;
+    display:grid;
+    background-color: #fff0e3;
+    
+   
+}
+
+
+h1{
+
+    color:#A2C8C8;
+    text-align: center;
+    font-size: 115px;
+    font-family: funFont;
+    -webkit-text-stroke: 0.002px #C8A2C8 ;
+    margin-bottom: 0;
+    
+}
+.divsToAdd{
+    border: 0.5px solid grey; 
+    
+    
+}
+.size{
+   
+    font-family: funFont;
+    font-size: x-large;
+    margin-bottom: -30px;
+    color:#9C6DA5;
+    max-width: 300px;
+
+}
+.buttons{
+   
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
+    justify-content: space-around;
+    
+    gap:10px;
+    
+    
+}
+#multi,#black,#eraser,#reset,#progressive{
+    width: fit-content;
+    height:25px;
+    text-align: center;
+    font-family: funFont;
+    font-size: 20px;
+    background-color: #A2E4B8;
+    border: 2px solid #FEDB72 ;
+    color:gray;
+}
+
+.sliderValue{
+    font-family:monospace;
+    color:gray;
+    font-size: 16px;
+}
+
