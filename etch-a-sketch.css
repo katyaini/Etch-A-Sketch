@@ -5,6 +5,8 @@
 }
 body{
     background-color:#ffcda2;
+    
+    
    
 }
 
@@ -12,9 +14,13 @@ body{
     height: 500px;
     width: 500px;
     border: 2px solid black;
-    margin:0 auto;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:auto;
+    margin-left:auto ;
     display:grid;
     background-color: #fff0e3;
+
     
    
 }
@@ -47,17 +53,17 @@ h1{
 .buttons{
    
     display: flex;
-    max-width: fit-content;
-    max-height: fit-content;
-    justify-content: space-around;
     
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     gap:10px;
     
     
 }
-#multi,#black,#eraser,#reset,#progressive{
-    width: fit-content;
-    height:25px;
+#multi,#black,#eraser,#reset{
+    width: 80px;
+    height:40px;
     text-align: center;
     font-family: funFont;
     font-size: 20px;
@@ -72,3 +78,23 @@ h1{
     font-size: 16px;
 }
 
+.input{
+    
+    
+    border:5px solid #C8A2C8;
+    border-radius: 10px;
+    width:fit-content;
+    height: 300px;
+    margin-left: 40px;
+
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap:-50px;
+    
+    width: 1300px;
+    align-items: center;
+    
+}
