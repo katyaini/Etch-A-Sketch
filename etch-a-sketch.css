@@ -81,8 +81,9 @@ h1{
 .input{
     
     
-    border:5px solid #C8A2C8;
+    border:7px solid #C8A2C8;
     border-radius: 10px;
+    outline: 2px solid #A2E4B8;
     width:fit-content;
     height: 300px;
     margin-left: 40px;
